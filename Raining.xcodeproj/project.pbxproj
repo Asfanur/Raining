@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A65483218E3FB2900F7C661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65483118E3FB2900F7C661 /* Foundation.framework */; };
+		3A65483418E3FB2900F7C661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65483318E3FB2900F7C661 /* CoreGraphics.framework */; };
+		3A65483618E3FB2900F7C661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65483518E3FB2900F7C661 /* UIKit.framework */; };
+		3A65483C18E3FB2900F7C661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A65483A18E3FB2900F7C661 /* InfoPlist.strings */; };
+		3A65483E18E3FB2900F7C661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65483D18E3FB2900F7C661 /* main.m */; };
+		3A65484218E3FB2900F7C661 /* RAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65484118E3FB2900F7C661 /* RAppDelegate.m */; };
+		3A65484518E3FB2900F7C661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A65484318E3FB2900F7C661 /* Main.storyboard */; };
+		3A65484818E3FB2900F7C661 /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65484718E3FB2900F7C661 /* RViewController.m */; };
+		3A65484A18E3FB2900F7C661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A65484918E3FB2900F7C661 /* Images.xcassets */; };
+		3A65485118E3FB2900F7C661 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65485018E3FB2900F7C661 /* XCTest.framework */; };
+		3A65485218E3FB2900F7C661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65483118E3FB2900F7C661 /* Foundation.framework */; };
+		3A65485318E3FB2900F7C661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A65483518E3FB2900F7C661 /* UIKit.framework */; };
+		3A65485B18E3FB2900F7C661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A65485918E3FB2900F7C661 /* InfoPlist.strings */; };
+		3A65485D18E3FB2900F7C661 /* RainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65485C18E3FB2900F7C661 /* RainingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A65485418E3FB2900F7C661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A65482618E3FB2900F7C661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A65482D18E3FB2900F7C661;
+			remoteInfo = Raining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A65482E18E3FB2900F7C661 /* Raining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A65483118E3FB2900F7C661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A65483318E3FB2900F7C661 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A65483518E3FB2900F7C661 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A65483918E3FB2900F7C661 /* Raining-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Raining-Info.plist"; sourceTree = "<group>"; };
+		3A65483B18E3FB2900F7C661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A65483D18E3FB2900F7C661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A65483F18E3FB2900F7C661 /* Raining-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Raining-Prefix.pch"; sourceTree = "<group>"; };
+		3A65484018E3FB2900F7C661 /* RAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAppDelegate.h; sourceTree = "<group>"; };
+		3A65484118E3FB2900F7C661 /* RAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAppDelegate.m; sourceTree = "<group>"; };
+		3A65484418E3FB2900F7C661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A65484618E3FB2900F7C661 /* RViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
+		3A65484718E3FB2900F7C661 /* RViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
+		3A65484918E3FB2900F7C661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A65484F18E3FB2900F7C661 /* RainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A65485018E3FB2900F7C661 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A65485818E3FB2900F7C661 /* RainingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RainingTests-Info.plist"; sourceTree = "<group>"; };
+		3A65485A18E3FB2900F7C661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A65485C18E3FB2900F7C661 /* RainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A65482B18E3FB2900F7C661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65483418E3FB2900F7C661 /* CoreGraphics.framework in Frameworks */,
+				3A65483618E3FB2900F7C661 /* UIKit.framework in Frameworks */,
+				3A65483218E3FB2900F7C661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A65484C18E3FB2900F7C661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65485118E3FB2900F7C661 /* XCTest.framework in Frameworks */,
+				3A65485318E3FB2900F7C661 /* UIKit.framework in Frameworks */,
+				3A65485218E3FB2900F7C661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A65482518E3FB2900F7C661 = {
+			isa = PBXGroup;
+			children = (
+				3A65483718E3FB2900F7C661 /* Raining */,
+				3A65485618E3FB2900F7C661 /* RainingTests */,
+				3A65483018E3FB2900F7C661 /* Frameworks */,
+				3A65482F18E3FB2900F7C661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A65482F18E3FB2900F7C661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A65482E18E3FB2900F7C661 /* Raining.app */,
+				3A65484F18E3FB2900F7C661 /* RainingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A65483018E3FB2900F7C661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A65483118E3FB2900F7C661 /* Foundation.framework */,
+				3A65483318E3FB2900F7C661 /* CoreGraphics.framework */,
+				3A65483518E3FB2900F7C661 /* UIKit.framework */,
+				3A65485018E3FB2900F7C661 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A65483718E3FB2900F7C661 /* Raining */ = {
+			isa = PBXGroup;
+			children = (
+				3A65484018E3FB2900F7C661 /* RAppDelegate.h */,
+				3A65484118E3FB2900F7C661 /* RAppDelegate.m */,
+				3A65484318E3FB2900F7C661 /* Main.storyboard */,
+				3A65484618E3FB2900F7C661 /* RViewController.h */,
+				3A65484718E3FB2900F7C661 /* RViewController.m */,
+				3A65484918E3FB2900F7C661 /* Images.xcassets */,
+				3A65483818E3FB2900F7C661 /* Supporting Files */,
+			);
+			path = Raining;
+			sourceTree = "<group>";
+		};
+		3A65483818E3FB2900F7C661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A65483918E3FB2900F7C661 /* Raining-Info.plist */,
+				3A65483A18E3FB2900F7C661 /* InfoPlist.strings */,
+				3A65483D18E3FB2900F7C661 /* main.m */,
+				3A65483F18E3FB2900F7C661 /* Raining-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A65485618E3FB2900F7C661 /* RainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A65485C18E3FB2900F7C661 /* RainingTests.m */,
+				3A65485718E3FB2900F7C661 /* Supporting Files */,
+			);
+			path = RainingTests;
+			sourceTree = "<group>";
+		};
+		3A65485718E3FB2900F7C661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A65485818E3FB2900F7C661 /* RainingTests-Info.plist */,
+				3A65485918E3FB2900F7C661 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A65482D18E3FB2900F7C661 /* Raining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A65486018E3FB2900F7C661 /* Build configuration list for PBXNativeTarget "Raining" */;
+			buildPhases = (
+				3A65482A18E3FB2900F7C661 /* Sources */,
+				3A65482B18E3FB2900F7C661 /* Frameworks */,
+				3A65482C18E3FB2900F7C661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raining;
+			productName = Raining;
+			productReference = 3A65482E18E3FB2900F7C661 /* Raining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A65484E18E3FB2900F7C661 /* RainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A65486318E3FB2900F7C661 /* Build configuration list for PBXNativeTarget "RainingTests" */;
+			buildPhases = (
+				3A65484B18E3FB2900F7C661 /* Sources */,
+				3A65484C18E3FB2900F7C661 /* Frameworks */,
+				3A65484D18E3FB2900F7C661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A65485518E3FB2900F7C661 /* PBXTargetDependency */,
+			);
+			name = RainingTests;
+			productName = RainingTests;
+			productReference = 3A65484F18E3FB2900F7C661 /* RainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A65482618E3FB2900F7C661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = R;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "asfanur arafin";
+				TargetAttributes = {
+					3A65484E18E3FB2900F7C661 = {
+						TestTargetID = 3A65482D18E3FB2900F7C661;
+					};
+				};
+			};
+			buildConfigurationList = 3A65482918E3FB2900F7C661 /* Build configuration list for PBXProject "Raining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A65482518E3FB2900F7C661;
+			productRefGroup = 3A65482F18E3FB2900F7C661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A65482D18E3FB2900F7C661 /* Raining */,
+				3A65484E18E3FB2900F7C661 /* RainingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A65482C18E3FB2900F7C661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65484A18E3FB2900F7C661 /* Images.xcassets in Resources */,
+				3A65483C18E3FB2900F7C661 /* InfoPlist.strings in Resources */,
+				3A65484518E3FB2900F7C661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A65484D18E3FB2900F7C661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65485B18E3FB2900F7C661 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A65482A18E3FB2900F7C661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65484818E3FB2900F7C661 /* RViewController.m in Sources */,
+				3A65483E18E3FB2900F7C661 /* main.m in Sources */,
+				3A65484218E3FB2900F7C661 /* RAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A65484B18E3FB2900F7C661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65485D18E3FB2900F7C661 /* RainingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A65485518E3FB2900F7C661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A65482D18E3FB2900F7C661 /* Raining */;
+			targetProxy = 3A65485418E3FB2900F7C661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A65483A18E3FB2900F7C661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A65483B18E3FB2900F7C661 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A65484318E3FB2900F7C661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A65484418E3FB2900F7C661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A65485918E3FB2900F7C661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A65485A18E3FB2900F7C661 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A65485E18E3FB2900F7C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A65485F18E3FB2900F7C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A65486118E3FB2900F7C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raining/Raining-Prefix.pch";
+				INFOPLIST_FILE = "Raining/Raining-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A65486218E3FB2900F7C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raining/Raining-Prefix.pch";
+				INFOPLIST_FILE = "Raining/Raining-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A65486418E3FB2900F7C661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Raining.app/Raining";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raining/Raining-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RainingTests/RainingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3A65486518E3FB2900F7C661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Raining.app/Raining";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raining/Raining-Prefix.pch";
+				INFOPLIST_FILE = "RainingTests/RainingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A65482918E3FB2900F7C661 /* Build configuration list for PBXProject "Raining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65485E18E3FB2900F7C661 /* Debug */,
+				3A65485F18E3FB2900F7C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A65486018E3FB2900F7C661 /* Build configuration list for PBXNativeTarget "Raining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65486118E3FB2900F7C661 /* Debug */,
+				3A65486218E3FB2900F7C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A65486318E3FB2900F7C661 /* Build configuration list for PBXNativeTarget "RainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A65486418E3FB2900F7C661 /* Debug */,
+				3A65486518E3FB2900F7C661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A65482618E3FB2900F7C661 /* Project object */;
+}
