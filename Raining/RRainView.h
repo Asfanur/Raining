@@ -10,4 +10,6 @@
 
 @interface RRainView : UIView
 
+-(UIBezierPath *)getBezierPathForView:(UIView *)view;
+
 @end

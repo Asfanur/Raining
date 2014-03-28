@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,26 +17,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egD-vy-2t2" customClass="RRainView">
-                                <rect key="frame" x="0.0" y="269" width="164" height="30"/>
+                                <rect key="frame" x="60" y="234" width="200" height="100"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="170" translatesAutoresizingMaskIntoConstraints="NO" id="AxW-ua-gql">
+                                        <rect key="frame" x="20" y="46" width="170" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="2fU-6Q-DCm"/>
-                                    <constraint firstAttribute="width" secondItem="egD-vy-2t2" secondAttribute="height" multiplier="82:15" id="Yeg-SP-UW7"/>
+                                    <constraint firstAttribute="width" priority="150" constant="200" id="CCZ-t9-8nt"/>
+                                    <constraint firstAttribute="height" constant="100" id="PFp-aN-ZFb"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="170" translatesAutoresizingMaskIntoConstraints="NO" id="AxW-ua-gql">
-                                <rect key="frame" x="14" y="307" width="170" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="egD-vy-2t2" firstAttribute="leading" secondItem="pUm-rh-Neh" secondAttribute="leading" id="CJ4-CL-M2S"/>
-                            <constraint firstItem="egD-vy-2t2" firstAttribute="centerY" secondItem="pUm-rh-Neh" secondAttribute="centerY" id="sXU-TM-31d"/>
+                            <constraint firstAttribute="centerX" secondItem="egD-vy-2t2" secondAttribute="centerX" id="KW2-ie-MsQ"/>
+                            <constraint firstAttribute="centerY" secondItem="egD-vy-2t2" secondAttribute="centerY" id="ewk-t4-Yz9"/>
                         </constraints>
                     </view>
                     <connections>

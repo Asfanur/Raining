@@ -65,7 +65,7 @@
     
     if (!_collision) {
         _collision = [[UICollisionBehavior alloc] initWithItems:@[imageView]];
-        [_collision addBoundaryWithIdentifier:@"barrier" fromPoint:self.barrier.frame.origin toPoint:CGPointMake(self.barrier.frame.origin.x + self.barrier.frame.size.width, self.barrier.frame.origin.y)];
+        [_collision addBoundaryWithIdentifier:@"barrier" forPath:[self.barrier getBezierPathForView:self.view]];
         [_collision addBoundaryWithIdentifier:@"bottom" fromPoint:CGPointMake(self.view.frame.origin.x,self.view.frame.origin.y + self.view.frame.size.height) toPoint:CGPointMake(self.view.frame.origin.x + self.view.frame.size.width, self.view.frame.origin.y + self.view.frame.size.height)];
         _collision.translatesReferenceBoundsIntoBoundary = YES;
         _collision.collisionDelegate = self;
