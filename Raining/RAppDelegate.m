@@ -7,11 +7,13 @@
 //
 
 #import "RAppDelegate.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 @implementation RAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     return YES;
 }
 							
