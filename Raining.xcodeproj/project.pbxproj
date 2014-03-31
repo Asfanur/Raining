@@ -41,6 +41,7 @@
 		3A6548A118E4362D00F7C661 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65488F18E4362D00F7C661 /* UIRefreshControl+AFNetworking.m */; };
 		3A6548A218E4362D00F7C661 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A65489118E4362D00F7C661 /* UIWebView+AFNetworking.m */; };
 		3A6548A418E4382400F7C661 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6548A318E4382400F7C661 /* CoreLocation.framework */; };
+		3ADE792618E9179D00679F74 /* RBackGround.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE792518E9179D00679F74 /* RBackGround.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,8 @@
 		3A65489018E4362D00F7C661 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		3A65489118E4362D00F7C661 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		3A6548A318E4382400F7C661 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3ADE792418E9179D00679F74 /* RBackGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBackGround.h; sourceTree = "<group>"; };
+		3ADE792518E9179D00679F74 /* RBackGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBackGround.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 				3A65484018E3FB2900F7C661 /* RAppDelegate.h */,
 				3A65484118E3FB2900F7C661 /* RAppDelegate.m */,
 				3A65484318E3FB2900F7C661 /* Main.storyboard */,
+				3ADE792418E9179D00679F74 /* RBackGround.h */,
+				3ADE792518E9179D00679F74 /* RBackGround.m */,
 				3A65486918E435BF00F7C661 /* RWeatherClient.h */,
 				3A65486A18E435BF00F7C661 /* RWeatherClient.m */,
 				3A65484618E3FB2900F7C661 /* RViewController.h */,
@@ -389,6 +394,7 @@
 				3A65483E18E3FB2900F7C661 /* main.m in Sources */,
 				3A65484218E3FB2900F7C661 /* RAppDelegate.m in Sources */,
 				3A65489418E4362D00F7C661 /* AFHTTPSessionManager.m in Sources */,
+				3ADE792618E9179D00679F74 /* RBackGround.m in Sources */,
 				3A65489C18E4362D00F7C661 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				3A65489B18E4362D00F7C661 /* AFNetworkActivityIndicatorManager.m in Sources */,
 			);
@@ -595,6 +601,7 @@
 				3A65486218E3FB2900F7C661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A65486318E3FB2900F7C661 /* Build configuration list for PBXNativeTarget "RainingTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +610,7 @@
 				3A65486518E3FB2900F7C661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

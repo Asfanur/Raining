@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="Z3h-q8-FBs"/>
                         <viewControllerLayoutGuide type="bottom" id="Lvb-Nr-f97"/>
                     </layoutGuides>
-                    <view key="view" contentMode="redraw" id="pUm-rh-Neh">
+                    <view key="view" contentMode="redraw" id="pUm-rh-Neh" customClass="RBackGround">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
