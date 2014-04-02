@@ -83,7 +83,7 @@
     
     if ([barrier isEqualToString:@"barrier" ]) {
         UIImageView* view = (UIImageView*)item;
-        [UIView animateWithDuration:.7 delay:0 options:UIViewAnimationOptionCurveLinear
+        [UIView animateWithDuration:.2 delay:0 options:UIViewAnimationOptionCurveLinear
                          animations:^{
                              view.alpha = 0;
                          }
@@ -95,7 +95,7 @@
         
     } else if ([barrier isEqualToString:@"bottom" ]){
         UIImageView* view = (UIImageView*)item;
-        [UIView animateWithDuration:.7 delay:0 options:UIViewAnimationOptionCurveLinear
+        [UIView animateWithDuration:.4 delay:0 options:UIViewAnimationOptionCurveLinear
                          animations:^{
                              view.alpha = 0;
                          }
