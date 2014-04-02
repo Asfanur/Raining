@@ -52,7 +52,7 @@
 - (void)addItem:(NSTimer *)timer
 {
     int x = arc4random()%280;
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"rainDrop"]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"rain"]];
     imageView.center = CGPointMake(x+60,0.0);
     [self.view addSubview:imageView];
     if (!_gravity) {
@@ -82,6 +82,7 @@
     NSString *barrier = (NSString *)identifier;
     
     if ([barrier isEqualToString:@"barrier" ]) {
+        
         UIImageView* view = (UIImageView*)item;
         [UIView animateWithDuration:.2 delay:0 options:UIViewAnimationOptionCurveLinear
                          animations:^{
